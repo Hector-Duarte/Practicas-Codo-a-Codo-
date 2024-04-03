@@ -1,2 +1,1 @@
-# Practicas-Codo-a-Codo-
-Este es un repositorio 
+Este proyecto es una prueba de como crear un repositorio y clonarlo
