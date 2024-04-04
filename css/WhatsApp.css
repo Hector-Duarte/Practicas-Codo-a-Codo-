@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(4, 23, 39);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    inset:center
+}
+
+h1{
+    font-size: 55px;
+    color: rgb(16, 194, 155);
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px hsl(170, 85%, 39%),
+    0 0 1px hsl(184, 88%, 39%),
+    0 0 1px hsl(150, 75%, 39%),
+    0 0 1px rgba(186, 183, 13, 0.781);
+    padding:10px 30px ;
+}
+
+#WhatsApp-img{
+   
+   
+
+    
+    
+}
+
+#WhatsApp-img img{
+    width: 15%;
+    transform: all 300ms;
+   
+
+}
+
+#WhatsApp-img:hover{
+    transform: scale(1.20);
+    transition: 1s;
+
+}

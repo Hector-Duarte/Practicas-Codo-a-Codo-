@@ -1,0 +1,96 @@
+
+
+
+body {
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/adventure.jpg);
+  background-attachment: fixed;
+   background-position: center center;
+   background-size: cover; 
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: rgba(75, 93, 91, 0.6);
+  padding: 30px;
+  color: #000;
+
+}
+#juego{
+  width: 610px;
+  height:606px;
+  background:rgba(75, 93, 91, 0.6);
+
+}
+
+#juego div {
+
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+div .tarea{
+  height: 200px;
+  width: 200px;
+  float: left;
+  border: rgba(79, 171, 161, 0.31) 1px solid;
+}
+img{
+  height: 200px;
+  width: 200px;
+  border: rgba(79, 171, 161, 0.31) 01px solid;
+  float: left;
+}
+
+#titulo{
+    background-color: rgba(79, 171, 161, 0.31);
+    font-family: 'Frijole', cursive;
+    border-radius: 4px;
+
+}
+#instrucciones{
+    font-family: 'Frijole', cursive;
+}
+#instrucciones h2{
+  color:rgba(209, 220, 208, 0.78);
+}
+
+.Botones{ 
+  background-color: rgba(75, 93, 91, 0.6);
+}
+
+#VOLVER a{
+  display: inline-block;
+  background: #56655f;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  text-decoration: none;
+  margin-left:548px;
+}
+

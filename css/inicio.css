@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(4, 23, 39);
+}
+
+h1{
+    font-size: 88px;
+    color: #ffffff;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+    
+  
+.login-box {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 400px;
+padding: 40px;
+transform: translate(-50%, -50%);
+background: rgba(24, 20, 20, 0.987);
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+border-radius: 10px;
+
+}
+
+.login-box .caja-usuario{
+    position: relative;
+}
+
+.login-box .caja-usuario input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff; 
+    outline: none;
+    background: transparent;
+}
+
+.login-box .caja-usuario label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+}
+.login-box .caja-usuario input:focus ~ label,
+.login-box .caja-usuario input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #bdb9bd;
+    font-size: 12px;
+}
+
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 2.5s;
+    margin-top: 40px;
+    letter-spacing: 8px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+
+.login-box a:hover {
+    background:  hsl(189, 89%, 21%);
+    border-radius: 15px;
+    box-shadow: 0 0 5px hsl(170, 85%, 39%),
+                0 0 15px hsl(249, 88%, 39%),
+                0 0 25px hsl(273, 75%, 39%),
+                0 0 35px rgba(13, 102, 186, 0.781);
+}
+
