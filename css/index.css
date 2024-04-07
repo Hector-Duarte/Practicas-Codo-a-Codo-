@@ -45,9 +45,8 @@ img{
     border-radius: 15px;
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
-    
 }
 
 .menu .navbar ul li {
@@ -76,6 +75,10 @@ img{
                 0 0 5px hsl(273, 75%, 39%),
                 0 0 5px rgba(13, 102, 186, 0.781);
                 
+}
+
+#menu {
+    display: none;
 }
 
 .menu-icono {
@@ -124,6 +127,7 @@ flex-basis: 50%;
     
 
 }
+
 
 .header .header-content .header-txt .btn-1 {
     color: white;
@@ -347,16 +351,16 @@ h2 {
     margin-bottom: 10px;
 }
 
-@media (max-width:900px){
+@media (max-width:991px){
     .menu {
         padding: 20px;
     }
 
-    .menu label {
+    .menu label{
         display: initial;
     }
 
-    .menu .navbar {
+    .menu .navbar{
         position: absolute;
         top: 100%;
         left: 0;
@@ -365,21 +369,22 @@ h2 {
         display: none;
     }
 
-    .menu .navbar ul li a:hover {
+    .menu .navbar ul li a:hover{
         color: #101630;
     }
 
-    .menu .navbar ul li {
+    .menu .navbar ul li{
         width: 100%;
     }
 
     #menu:checked ~ .navbar{
         display: initial;
+        
     }
 
     .header {
-        min-height: 0vh;
-        padding:  100px 30px 30px 30px;
+        
+        padding:  100px 30px 30px 30px
     }
 
 
@@ -389,7 +394,7 @@ h2 {
     }
 
     .header-txt h1 {
-        font-size: 70px;
+        font-size: 63px;
     }
 
     .about {
@@ -462,40 +467,6 @@ h2 {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
