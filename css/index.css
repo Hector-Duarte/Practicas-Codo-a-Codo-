@@ -219,14 +219,14 @@ flex-basis: 50%;
 
 
 .about-img {
-    width: 220px;
+    width: 200px;
     border-radius: 15px;
     box-shadow: 0 0 5px hsl(170, 85%, 39%),
     0 0 5px hsl(249, 88%, 39%),
     0 0 10px hsl(273, 75%, 39%),
     0 0 15px rgba(13, 102, 186, 0.781);
    /** margin-left: 980px; Se queda a la derecha**/
-   margin-bottom: 50px;
+   
 }
 
 
@@ -437,6 +437,7 @@ h2 {
 
     .butons a {
         margin: 0 0 10px 0;
+        
     }
 
     .portafolio {
@@ -487,6 +488,12 @@ h2 {
     .final-content {
         flex-direction: column;
         text-align: center;
+    }
+
+}
+@media (max-width:991px) {
+    .btn-1 {
+        display: none;
     }
 
 }
