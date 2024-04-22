@@ -377,6 +377,9 @@ h2 {
 }
 
 @media (max-width:991px){
+    html{ max-width: 991px;
+        
+    }
     .menu {
         padding: 20px;
     }
@@ -474,7 +477,7 @@ h2 {
     }
 
     .skills {
-        padding: 0px 30px 30px 30px ;
+        //*padding: 0px 30px 30px 30px ;*/
     }
 
     .skills-content {
