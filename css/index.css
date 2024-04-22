@@ -378,6 +378,7 @@ h2 {
 
 @media (max-width:991px){
     html{ max-width: 991px;
+
         
     }
     .menu {
@@ -497,14 +498,13 @@ h2 {
     }
 
 }
-/*
 @media (max-width:991px) {
-    .btn-1 {
+    #butons-1 {
         display: none;
     }
 
 }
-*/
+
 
 
 
