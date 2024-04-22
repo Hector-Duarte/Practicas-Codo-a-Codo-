@@ -388,6 +388,7 @@ h2 {
         list-style: none;
         text-decoration: none;
         width:auto;
+        display: initial;
  
     }
     .menu {
