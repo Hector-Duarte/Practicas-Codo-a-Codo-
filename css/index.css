@@ -253,6 +253,7 @@ h2 {
 .portafolio {
     padding: 50px 0;
     text-align: center;
+    
 }
 
 .portafolio-content {
@@ -403,15 +404,13 @@ h2 {
 
     #menu:checked ~ .navbar{
         display: initial;
-        
     }
 
     .header {
-        
-        padding:  100px 30px 30px 30px
+        padding:  109px 30px 30px 30px;
+        height: 90vh;
     }
-
-
+    
     .header-content {
         flex-direction: column;
         text-align: center;
@@ -426,6 +425,7 @@ h2 {
         flex-direction: column;
         text-align: center;
         align-items: center;
+        
     }
 
     .about-img img {
@@ -436,12 +436,15 @@ h2 {
     }
 
     .butons a {
-        margin: 0 0 10px 0;
-        
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 0px auto;
+    width: 125px;
     }
 
     .portafolio {
         padding: 30px;
+        height: 100vh;
     }
 
     .portafolio-content {
