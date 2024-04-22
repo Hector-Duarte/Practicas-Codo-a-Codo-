@@ -378,8 +378,11 @@ h2 {
 
 @media (max-width:991px){
     html{ max-width: 991px;
-
-        
+        width:auto;
+        font-size: 1rem;
+        height: 100%;
+        scroll-behavior: smooth;
+ 
     }
     .menu {
         padding: 20px;
