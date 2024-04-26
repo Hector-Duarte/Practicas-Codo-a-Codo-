@@ -10,7 +10,6 @@
 
 html{
     font-size: 1rem;
-    
     scroll-behavior: smooth;
 }
 
@@ -91,6 +90,7 @@ img{
     align-items: center;
     min-height: 70vh;
     padding:  50px 0 0 0;
+    margin-bottom: 30px;
 
 }
 
@@ -218,6 +218,7 @@ flex-basis: 50%;
     0 0 5px hsl(249, 88%, 39%),
     0 0 10px hsl(273, 75%, 39%),
     0 0 15px rgba(13, 102, 186, 0.781);
+    margin-bottom: 30px;
    /** margin-left: 980px; Se queda a la derecha**/
    
 }
@@ -264,6 +265,7 @@ h2 {
 .portafolio-txt {
     flex-basis: 50%;
     text-align:left;
+    
 
 }
 
@@ -281,6 +283,7 @@ h2 {
     font-size: 35px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    
 }
 
 .portafolio-txt p {
@@ -370,6 +373,9 @@ h2 {
 }
 
 @media (max-width:991px){
+    html{
+        position: absolute;
+    }
     .menu {
         padding: 20px;
     }
@@ -505,6 +511,18 @@ h2 {
         display: none;
     }
 
+}
+@media (max-width:991) {
+    .animate{
+        display: none;
+    }
+    
+}
+
+@media (mas-width:991){
+    .animate__animated{
+        display: none;
+    }
 }
 
 
