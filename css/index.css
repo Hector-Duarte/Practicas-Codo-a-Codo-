@@ -513,15 +513,17 @@ h2 {
 
 }
 @media (max-width:991) {
-    .animate{
+    .animate {
         display: none;
+        position: relative;
     }
     
 }
 
 @media (mas-width:991){
-    .animate__animated{
+    .animate__animated {
         display: none;
+        position: relative;
     }
 }
 
