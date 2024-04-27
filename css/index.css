@@ -392,6 +392,10 @@ h2 {
         right: 0;
         background-color: #49bada;
         display: none;
+        
+    }
+    .menu .navbar ul li:hover {
+        background-color: #5549da;
     }
     .menu .navbar .central  {
     display: flex;
