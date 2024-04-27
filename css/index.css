@@ -531,6 +531,18 @@ h2 {
     }
 }
 
+@keyframes glowing {
+    0% {
+        background-position: 0 1;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    200% {
+        background-position: 0 0;
+    }
+}
+
 
 
 
