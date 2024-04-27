@@ -124,19 +124,42 @@ flex-basis: 50%;
 
 }
 
-
-.header .header-content .header-txt .btn-1 {
-    color: white;
+.btn-1{
+    background: rgb(4, 23, 39);
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
     text-transform: uppercase;
-    font-size: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px hsl(170, 85%, 39%),
-    0 0 1px hsl(184, 88%, 39%),
-    0 0 1px hsl(150, 75%, 39%),
-    0 0 1px rgba(186, 183, 13, 0.781);
-    padding:10px 30px ;
+    margin: 5px;
 }
-
+/*Boton con animacion de colores*/
+.btn-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,
+    hsl(249, 88%, 39%),
+    deeppink,
+    hsl(194, 88%, 39%),
+    rgb(36, 177, 120),
+    hsl(273, 75%, 39%),
+    blue,
+    rgb(86, 254, 3),
+    red);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(4px);
+    animation: glowing 20s linear infinite;
+}
+/*Boton con efecto hover
 .header  .header-content .header-txt .btn-1:hover{
     color: white;
     padding: 15px 40px;
@@ -147,59 +170,8 @@ flex-basis: 50%;
     0 0 10px hsl(273, 75%, 39%),
     0 0 15px rgba(13, 102, 186, 0.781);
 }
+*/
 
-
-
-.about .btn-1 {
-    color: white;
-    text-transform: uppercase;
-    font-size: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px hsl(170, 85%, 39%),
-    0 0 1px hsl(184, 88%, 39%),
-    0 0 1px hsl(150, 75%, 39%),
-    0 0 1px rgba(186, 183, 13, 0.781);
-    padding:10px 30px ;
-    
-
-}
-
-.about .btn-1:hover{
-    color: white;
-    padding: 15px 40px;
-    transition: 1s;
-    padding: 10px 30px;
-    box-shadow: 0 0 5px hsl(170, 85%, 39%),
-    0 0 5px hsl(249, 88%, 39%),
-    0 0 10px hsl(273, 75%, 39%),
-    0 0 15px rgba(13, 102, 186, 0.781);
-    
-}
-.butons{
- margin-left: auto;
- margin-right: auto;
-}
-.butons .btn-1{
-    color: white;
-    text-transform: uppercase;
-    font-size: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px hsl(170, 85%, 39%),
-    0 0 1px hsl(184, 88%, 39%),
-    0 0 1px hsl(150, 75%, 39%),
-    0 0 1px rgba(186, 183, 13, 0.781);
-    padding:10px 30px ;
-}
-.butons .btn-1:hover {
-    color: white;
-    padding: 15px 40px;
-    transition: 1s;
-    padding: 10px 30px;
-    box-shadow: 0 0 5px hsl(170, 85%, 39%),
-    0 0 5px hsl(249, 88%, 39%),
-    0 0 10px hsl(273, 75%, 39%),
-    0 0 15px rgba(13, 102, 186, 0.781);
-}
 
 .about {
     min-height: 100vh;
@@ -237,11 +209,6 @@ h2 {
     font-size: 17px;
     margin-bottom: 50px;
 
-}
-
-
-.butons a { 
-    margin-right: 15px;
 }
 
 .portafolio {
@@ -303,28 +270,14 @@ h2 {
     border-radius: 35px
 }
 
-.portafolio .portafolio-content .portafolio-1 .portafolio-txt  .btn-1 {
+.portafolio .btn-1 {
     color: white;
     text-transform: uppercase;
     font-size: 15px;
     border-radius: 10px;
-    box-shadow: 0 0 5px hsl(170, 85%, 39%),
-    0 0 1px hsl(184, 88%, 39%),
-    0 0 1px hsl(150, 75%, 39%),
-    0 0 1px rgba(186, 183, 13, 0.781);
+    
     padding:10px 30px ;
 
-}
-
-.portafolio .portafolio-content .portafolio-1 .portafolio-txt  .btn-1:hover {
-    color: white;
-    padding: 15px 40px;
-    transition: 1s;
-    padding: 10px 30px;
-    box-shadow: 0 0 5px hsl(170, 85%, 39%),
-    0 0 5px hsl(249, 88%, 39%),
-    0 0 10px hsl(273, 75%, 39%),
-    0 0 15px rgba(13, 102, 186, 0.781);
 }
 
 .skills {
@@ -395,7 +348,9 @@ h2 {
         
     }
     .menu .navbar ul li:hover {
+        transition: 2.5s;
         background-color: #5549da;
+        
     }
     .menu .navbar .central  {
     display: flex;

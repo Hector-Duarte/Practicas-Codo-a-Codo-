@@ -171,7 +171,8 @@ html:before {
 @media (max-width:991px){
     html{
         
-
+        top: auto;
+        bottom: auto;
     }
     .logo h1{
         text-align: center;
