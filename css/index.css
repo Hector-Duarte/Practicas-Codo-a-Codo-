@@ -455,7 +455,7 @@ h2 {
 
     .skills-content {
         margin-top: 0;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2,1fr);
         gap: 40px;
         padding: 0 100px;
     }
