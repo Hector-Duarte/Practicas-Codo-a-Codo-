@@ -52,21 +52,18 @@ img{
     font-style: normal;
 }
 
-.menu .navbar ul li {
+.navbar ul li {
     position: relative;
     float: left;
 }
-.menu .navbar ul li a {
+.navbar ul li a {
     font-size: 18px;
     padding: 10px;
     color: white;
     display: block;
     font-weight: 600;
     transition: 2s;
-    
 }
-
-
 
 .menu .navbar ul li a:hover {
    color: aqua;
@@ -458,7 +455,7 @@ h2 {
 
     .skills-content {
         margin-top: 0;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 40px;
         padding: 0 100px;
     }
