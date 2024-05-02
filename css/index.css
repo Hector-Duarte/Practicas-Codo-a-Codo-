@@ -326,13 +326,8 @@ h2 {
     html{
         position: absolute;
     }
-    .animate{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    width:auto;
+    .animate__animated {
+   
     }
     .menu {
         padding: 20px;
@@ -467,6 +462,9 @@ h2 {
     .final-content {
         flex-direction: column;
         text-align: center;
+    }
+    .animacion{
+        
     }
 
 }
