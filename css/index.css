@@ -327,7 +327,7 @@ h2 {
         position: absolute;
     }
     .animate__animated {
-   
+   max-width: 100%;
     }
     .menu {
         padding: 20px;
