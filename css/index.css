@@ -39,17 +39,9 @@ img{
     justify-content: space-between;
 }
 .logo{
-    color: aqua;
-    font-size: 25px;
-    font-weight: 800;
-    text-transform: uppercase;
-
-    width: 350px;
-    border-radius: 15px;
-    font-family: "Cinzel", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+    width: 250px;
+    margin-bottom: -204px;
+    position: relative;
 }
 
 .navbar ul li {
@@ -331,6 +323,9 @@ h2 {
     }
     .menu {
         padding: 20px;
+    }
+    .logo{
+        display: none;
     }
     
     .menu label{
