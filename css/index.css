@@ -31,7 +31,7 @@ img{
 
 .menu{
     position: absolute;
-    top: 20px;
+    top: 50px;
     left: 0;
     right: 0;
     display: flex;
@@ -39,9 +39,8 @@ img{
     justify-content: space-between;
 }
 .logo{
-    width: 250px;
-    margin-bottom: -204px;
-    position: relative;
+    width: 200px;
+    
 }
 
 .navbar ul li {
@@ -51,7 +50,7 @@ img{
 .navbar ul li a {
     font-size: 18px;
     padding: 10px;
-    color: white;
+    color: #51add3;
     display: block;
     font-weight: 600;
     transition: 2s;
@@ -66,7 +65,7 @@ img{
 }
 
 .menu-icono {
-    width: 25px;
+    width: 50px;
 }
 
 .menu label{
@@ -77,7 +76,7 @@ img{
 .header {
     display: flex;
     align-items: center;
-    min-height: 70vh;
+    min-height: 100vh;
     padding:  50px 0 0 0;
     margin-bottom: 30px;
 
@@ -86,11 +85,12 @@ img{
 
 .header-content { 
     display: flex;
-    flex: 1;
-    
-    
+    justify-content: space-between;
+    align-items: center;
 }
-
+.header-content img{
+width: 380px;
+}
 .header-txt {
 flex-basis: 50%;
 
@@ -105,7 +105,7 @@ flex-basis: 50%;
 
 .header-txt h1 {
     font-size: 100px;
-    color: white;
+    color: #51add3;
     line-height: 1;
     font-family:'Times New Roman', Times, serif;
     margin: 10px 0 25px 0;
@@ -118,7 +118,7 @@ flex-basis: 50%;
     cursor: pointer;
     border: none;
     padding: 10px 30px;
-    color: azure;
+    color: #868b9e;
     font-weight: bold;
     position: relative;
     border-radius: 12px;
@@ -194,7 +194,7 @@ h2 {
 
 
 .about-txt p {
-    color: white;
+    color: #caced0;
     font-size: 17px;
     margin-bottom: 50px;
 
@@ -260,7 +260,7 @@ h2 {
 }
 
 .portafolio .btn-1 {
-    color: white;
+    color: #868b9e;
     text-transform: uppercase;
     font-size: 15px;
     border-radius: 10px;
@@ -323,9 +323,11 @@ h2 {
     }
     .menu {
         padding: 20px;
+        
     }
     .logo{
-        display: none;
+        width: 100%;
+       
     }
     
     .menu label{
@@ -341,6 +343,8 @@ h2 {
         background-color: #49bada;
         display: none;
         
+        
+        
     }
     .menu .navbar ul li:hover {
         transition: 2.5s;
@@ -351,20 +355,26 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    position: fixed
     }
 
    
     .menu .navbar ul li a:hover{
         transition: 1s;
         color: black;
+       
 
     }
-
+.navbar ul li a {
+    color: white;
+}
     .menu .navbar ul li{
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+         
     }
 
     #menu:checked ~ .navbar{
@@ -375,6 +385,7 @@ h2 {
     .header {
         padding:  109px 30px 30px 30px;
         height: 90vh;
+        
     }
     
     .header-content {
@@ -385,13 +396,20 @@ h2 {
     .header-txt h1 {
         font-size: xx-large;
     }
+    .header-content img{
+       width: 141px;
+    margin-left: 50%;
+    margin-right: 30%;
+    margin-top: 204px;
+  }
+    }
 
     .about {
         padding: 30px;
         flex-direction: column;
-        text-align: center;
-        align-items: center;
         
+        align-items: center;
+    
     }
 
     .about-img img {
@@ -404,7 +422,6 @@ h2 {
     .butons a {
     display: flex;
     justify-content: center;
-    margin: 20px auto 0px auto;
     width: 125px;
     }
 
