@@ -273,11 +273,10 @@ h2 {
 }
 
 .skills-content {
-    margin-top: 70px;
-    display: grid;
-    grid-template-columns: repeat(4 , 1fr);
-    gap: 100px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+   
 }
 
 .skills-content img {
@@ -453,10 +452,6 @@ h2 {
         
     }
 
-    .skills {
-        //*padding: 0px 30px 30px 30px ;*/
-    }
-
     .skills-content {
         margin-top: 0;
         grid-template-columns: repeat(2,1fr);
@@ -469,14 +464,8 @@ h2 {
     }
 
     .final-content {
-        flex-direction: column;
         text-align: center;
     }
-    .animacion{
-        
-    }
-
-}
 @media (max-width:991px) {
     #butons-1 {
         display: none;
