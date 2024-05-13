@@ -171,7 +171,6 @@ flex-basis: 50%;
 
 }
 
-
 .about-img {
     width: 200px;
     border-radius: 15px;
@@ -181,9 +180,7 @@ flex-basis: 50%;
     0 0 15px rgba(13, 102, 186, 0.781);
     margin-bottom: 30px;
    /** margin-left: 980px; Se queda a la derecha**/
-   
 }
-
 
 h2 {
     font-size: 40px;
@@ -479,7 +476,7 @@ h2 {
         
     }
 
-}
+
 @media (max-width:991px) {
     #butons-1 {
         display: none;
@@ -512,11 +509,6 @@ h2 {
         background-position: 0 0;
     }
 }
-
-
-
-
-
 
 
 
